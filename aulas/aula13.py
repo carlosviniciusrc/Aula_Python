@@ -28,7 +28,7 @@ altura = 1.67
 imc = peso / (altura * altura)
 
 linha_1 = f'Meu nome é {nome} e tenho {idade} anos. O meu peso é {peso}kg e tenho a altura de {altura}m'
-linha_2 = f'O valor do meu IMC é {imc:.2f}'
+linha_2 = f''
 
 print(linha_1)
 print(linha_2)
