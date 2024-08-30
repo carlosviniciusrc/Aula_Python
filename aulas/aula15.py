@@ -51,3 +51,13 @@ b = float(input())
 media = (a * 3.5 + b * 7.5) / 11
 
 print(f'MEDIA = {media:.5f}')
+
+# Sálario e comissão
+
+nome = str(input('qual o seu nome? '))
+salario_fixo = float(input())
+total_vendas = float(input())
+
+comissao = salario_fixo + (total_vendas * 0.15)
+
+print(f'TOTAL = R$ {comissao:.2f}')
