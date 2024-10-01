@@ -11,5 +11,5 @@ else:
     print('Entrar')
 
 
-print(not 0)
-print(not 1)
+print(not 0) #False
+print(not 1) #True

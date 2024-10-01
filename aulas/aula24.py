@@ -7,17 +7,24 @@
 # V i n i c i u s
 # -8-7-6-5-4-3-2-1
 
-nome = 'Vinicius'
-# print(nome[2])
-# print(nome[-2])
+# nome = 'Vinicius'
+# print(nome[2]) vai verificar a ordem das letras de 0 a 7
+# print(nome[-2]) vai verificar a ordem das letras de -8 a -1
 
-print('n' in nome) # está perguntando se 'n' esta entre o valor da variavel nome.
-print('b' in nome)
-print('Vini' in nome)
-print(10 * '-')
-# Ex de not in:
+# print('n' in nome) # está perguntando se 'n' esta entre o valor da variavel nome.
+# print('b' in nome) #false
+# print('Vini' in nome) #true
+# print(10 * '-')
+# # Ex de not in:
 
-print('g' not in nome)
-print('cius' not in nome)
+# print('g' not in nome) # esta perguntando se não está entre o nome
+# print('cius' not in nome)
 
 
+nome = input('Digite seu nome: ')
+encontrar = input('Digite o que você que encontrar: ')
+
+if encontrar in nome:
+    print(f'{encontrar} está em {nome}')
+else:
+    print(f'{encontrar} não está em {nome}')
