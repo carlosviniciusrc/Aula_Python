@@ -26,4 +26,3 @@ print(0 or False or 0 or 'abc' or True)
 
 senha3 = input('senha: ') or 'sem senha' # é utilizado para simplificar seu codigo
 print(senha3)
-
