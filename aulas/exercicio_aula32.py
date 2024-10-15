@@ -5,30 +5,30 @@ inteiro, informe que não é um número inteiro.
 """
 numero = input('Digite um numero inteiro: ')
 
-# try:
-#     numero_inteiro = int(numero) #poderia tambem ter usado .isdigit()
+try:
+    numero_inteiro = int(numero) #poderia tambem ter usado .isdigit()
 
-#     if numero_inteiro % 2 == 0:
-#         print('O número que você digitou é par')
-#     else:
-#         print('O número que você digitou é ímpar')
+    if numero_inteiro % 2 == 0:
+        print('O número que você digitou é par')
+    else:
+        print('O número que você digitou é ímpar')
 
-# except:
-#     print('Você não digitou um número inteiro')
+except:
+    print('Você não digitou um número inteiro')
 
 # metodo 2
 
-# if numero.isdigit():
-#     numero_convertido = int(numero)
-#     numero_par_impar = numero_convertido % 2 == 0
-#     par_impar_texto = 'ímpar'
+if numero.isdigit():
+    numero_convertido = int(numero)
+    numero_par_impar = numero_convertido % 2 == 0
+    par_impar_texto = 'ímpar'
 
-#     if numero_par_impar:
-#         par_impar_texto = 'par'
+if numero_par_impar:
+    par_impar_texto = 'par'
 
-#     print(f'O número {numero_convertido} é {par_impar_texto}')
-# else:
-#     print(f'Você não digitou um número inteiro')
+    print(f'O número {numero_convertido} é {par_impar_texto}')
+else:
+    print(f'Você não digitou um número inteiro')
 
 
 """
