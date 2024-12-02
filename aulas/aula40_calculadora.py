@@ -5,7 +5,7 @@ while True:
     numero_2 = input('Digite outro número: ')
     operador = input('Digite o operador (+ - * /): ')
 
-    # Um flag para utilizar para cchecar o coding
+    # Um flag para utilizar para checar o coding
     numeros_validos = None
     num_1_float = 0
     num_2_float = 0
