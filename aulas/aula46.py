@@ -1,15 +1,15 @@
-# for i in range(10):
-#     if i == 2:
-#         continue
+for i in range(10):
+    if i == 2:
+        continue
 
-#     if i == 8:
-#         print('i é 8, seu else não executará')
-#         break
+    if i == 8:
+        print('i é 8, seu else não executará')
+        break
 
-#     for j in range(1,3):
-#         print(i, j)
-# else:
-#     print('For completo com sucesso')
+    for j in range(1,3):
+        print(i, j)
+else:
+    print('For completo com sucesso')
 
 # Você foi contratado para criar um programa que analisa as notas de uma
 # turma de estudantes. O programa deve:
@@ -18,32 +18,32 @@
 # Determinar a nota mais alta e a nota mais baixa.
 # Contar quantas notas estão acima da média.
 
-# notas = [8.5, 9.0, 6.5, 7.0, 10.0, 5.5, 8.0]
+notas = [8.5, 9.0, 6.5, 7.0, 10.0, 5.5, 8.0]
 
-# soma_notas = 0
-# nota_mais_baixa = notas[0]
-# nota_mais_alta = notas[0]
+soma_notas = 0
+nota_mais_baixa = notas[0]
+nota_mais_alta = notas[0]
 
-# for nota in notas:
-#     soma_notas += nota
-#     if nota > nota_mais_alta:
-#         nota_mais_alta = nota
-#     if nota < nota_mais_baixa:
-#         nota_mais_baixa = nota
+for nota in notas:
+    soma_notas += nota
+    if nota > nota_mais_alta:
+        nota_mais_alta = nota
+    if nota < nota_mais_baixa:
+        nota_mais_baixa = nota
 
-# media_notas = soma_notas / len(notas)
+media_notas = soma_notas / len(notas)
 
-# acima_da_media = 0
+acima_da_media = 0
 
-# for nota in notas:
-#     if nota > media_notas:
-#         acima_da_media += 1
+for nota in notas:
+    if nota > media_notas:
+        acima_da_media += 1
 
 
-# print(f'A nota mais baixa é {nota_mais_baixa}')
-# print(f'A nota mais alta é {nota_mais_alta}')
-# print(f'A media das notas é {media_notas:.2f}')
-# print(f'O total de notas acima da média é {acima_da_media}')
+print(f'A nota mais alta é {nota_mais_alta}')
+print(f'A media das notas é {media_notas:.2f}')
+print(f'A nota mais baixa é {nota_mais_baixa}')
+print(f'O total de notas acima da média é {acima_da_media}')
 
 # for com while
 
