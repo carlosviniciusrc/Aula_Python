@@ -22,3 +22,5 @@ try:
     print(f'O dobro de {numero_str} é {numero_float * 2}')
 except: # Aqui estabelecemos o que vai aprecer no erro do usuário. para não aprecer o erro automatico de valuerro do sistema.
     print('Isso não é um número')
+
+
