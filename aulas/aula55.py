@@ -14,7 +14,7 @@ for a, b in lista_enumerada:
     print(a, b)
 
 # importante:
-# utilizar o enumerate em um variavel você só pode utilizar ele um vez, pois
+# utilizar o enumerate em uma variavel você só pode utilizar ele um vez, pois
 # seu valores se esgotam, por isso é melhor utilizar fora de variavel. Veja abaixo:
 
 for item in enumerate(lista):

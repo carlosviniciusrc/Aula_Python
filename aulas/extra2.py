@@ -79,12 +79,26 @@ Imprime apenas os números que passaram na condição.
 #         print(i)
 
 
-nomes = ["Ana", "Bruno", "Carlos", "Pedro", "João"]
+# nomes = ["Ana", "Bruno", "Carlos", "Pedro", "João"]
 
-entrada = input('jsjsjks: ')
+# entrada = input('jsjsjks: ')
 
-nomes.remove(entrada) # Removeu o nome de João
+# nomes.remove(entrada) # Removeu o nome de João
 
-print(nomes)
+# print(nomes)
 
 
+# frase = '    Se o produto ta caro,     não compra    '
+# frase_crua = frase.split(',')
+
+# frase_listada = []
+# for i, frase in enumerate(frase_crua):
+#     frase_listada.append(frase_crua[i].strip()) 
+    
+# print(frase_listada)
+# print(frase_crua)
+# frase_modificada = '**FAZUELI**'.join(frase_listada)
+# print(frase_modificada)
+
+for i in range(10, 1, -1):
+    print(i)

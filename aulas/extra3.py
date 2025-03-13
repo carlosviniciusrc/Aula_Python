@@ -230,14 +230,16 @@
 
 # enumerate 
 
-lista = ['Carlos', 'Rafaella', 'Vinicius']
+# lista = ['Carlos', 'Rafaella', 'Vinicius']
 
-print(enumerate(lista))
+# print(enumerate(lista))
 
-for numero, nome in enumerate(lista):
-    print(numero, nome)
+# for numero, nome in enumerate(lista):
+#     print(numero, nome)
 
-print(numero, nome)
+# print(numero, nome)
 
+import random
 
+print(random.randint(0,9))
 
