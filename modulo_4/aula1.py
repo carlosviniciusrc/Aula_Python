@@ -34,18 +34,32 @@ Argumento 	Valor passado na chamada da função.
 # Só chamamos a função de você colocar o nome dela com ().
 # Print()
 
-def imprimir(a, b, c):
-    print(a, b, c)
+# def imprimir(a, b, c):
+#     print(a, b, c)
 
-imprimir(1, 2, 3)
-imprimir(4, 5, 6)
+# imprimir(1, 2, 3)
+# imprimir(4, 5, 6)
 
 # Quando você faz a chamada da função e não passa um argumento para ele, vai
-# aparecer um erro, por isso você em certos casos pode passa um valor para o
-# parametro
-def saudacao(nome):
-    print(f'Olá, {nome}!')
+# aparecer um erro, por isso em certos casos pode passa um valor para o parametro
 
-saudacao('Vini')
-saudacao('Carlos')
+# def saudacao(nome = 'Sem nome'):
+#     print(f'Olá, {nome}!')
+
+# saudacao('Vini') # vini
+# saudacao('Carlos') # Carlos
+# saudacao() # Sem nome
+
+
+# Ex:
+
+def multiplo_de(numero, multiplo):
+    resultado = numero % multiplo == 0 # bool
+    print(f'{numero} é múltiplo de {multiplo}?', end=' ')
+    print(resultado)
+ 
+#           number     multi
+multiplo_de(    16,         8)
+multiplo_de(    15,         3)
+multiplo_de(    10,         2)
 
