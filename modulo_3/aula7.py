@@ -20,3 +20,4 @@ idade = 23
 maior_de_idade = idade >= 18 # esta perguntado se o valor é maior que 18 anos
 print('Nome:', nome, 'Idade:', idade)
 print('É maior de idade?', maior_de_idade)
+

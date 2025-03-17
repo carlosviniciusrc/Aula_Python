@@ -34,6 +34,7 @@ print(nome2, _) # 'Rafaella', 'Vinicius'
 # Outro exemplo:
 
 primeiro, *meio, ultimo = [10, 20, 30, 40, 50]
+
 print(primeiro)  # 10
 print(meio)      # [20, 30, 40]
 print(ultimo)    # 50

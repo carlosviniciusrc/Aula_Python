@@ -19,6 +19,7 @@ for a, b in lista_enumerada:
 
 for item in enumerate(lista):
     print(item)
+    
 
 # 1️⃣ Sintaxe do enumerate()
 

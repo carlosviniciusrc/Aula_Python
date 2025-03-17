@@ -19,6 +19,7 @@ lista = ['Carlos', 'Rafaella', 'Vinicius']
 lista.append('Maria')
 lista.insert(1, 'Augusto')
 
+
 indices = range(len(lista))
 
 for indice in indices:

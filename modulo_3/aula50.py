@@ -19,6 +19,7 @@ Criar, ler, alterar, apagar = lista[i] (CRUD)
 
 lista = [10, 20, 30, 40]
 
+
 # insert(): Adiciona um elemento em uma posição específica.
 
 # A sintaxe é "lista.insert(indice, elemento)"

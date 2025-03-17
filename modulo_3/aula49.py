@@ -18,6 +18,7 @@ Criar, Ler, Alterar, Apagar = lista[i] (CRUD)
 # Append(): Adiciona um elemento ao final da lista.
 numeros = [1, 2, 3, 4, 5]
 
+
 numeros.append(6) # Adicionou o 6
 numeros.append(7) # Adicionou o 7
 print(numeros)

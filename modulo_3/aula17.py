@@ -19,6 +19,7 @@ elif condicao4:
     print('Código para condição 4')
 else:
     print('Nenhuma condição foi satisfeita.')
+    
 
 
 

@@ -18,4 +18,5 @@ while indice < len(nome):
     nova_string += letra 
     indice += 1
     
+    
 print(nova_string)

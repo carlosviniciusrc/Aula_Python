@@ -42,3 +42,4 @@ while indice < len(numeros):
     indice += 1
 else:
     print(f"Número {procurado} não encontrado.")
+    

@@ -26,6 +26,8 @@ print(lista_de_frases_crua)
 print(lista_de_frases)
 
 
+
+
 # O método join() é usado para juntar elementos de uma lista (ou outra sequência iterável) 
 # em uma única string, separando-os por um delimitador específico.
 # Sintaxe - separador.join(iterável)

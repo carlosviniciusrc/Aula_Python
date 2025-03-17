@@ -53,6 +53,7 @@ while True:
     # Representa os dígitos de 0 a 9.
     
     entrada = input('Digite seu CPF: ')
+    
     cpf_enviado = re.sub(r'[^0-9]', '', entrada)
     # Aqui vamos realizar o fatiamento da string
     nove_digitos = cpf_enviado[:9]

@@ -79,6 +79,7 @@ for numero in lista:
 print(valor)
 
 
+
 # Tabuada de multiplicação
 # while True:
 #     try:

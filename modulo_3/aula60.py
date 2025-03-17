@@ -29,3 +29,4 @@ Se a implementação é difícil de explicar, é uma má ideia.
 Se a implementação é fácil de explicar, pode ser uma boa ideia.
 Namespaces são uma grande ideia -- vamos fazer mais dessas!
 """
+

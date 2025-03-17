@@ -14,6 +14,7 @@ string = 'ABCDE'  # 5 caracteres
 # lista = []
 # string1 = ''
 
+
 #print(bool(lista)) # false
 #print(bool(string1)) # false
 

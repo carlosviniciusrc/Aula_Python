@@ -25,3 +25,4 @@ print('Módulo', modulo)
 
 print(10 % 2 == 0)
 print(15 % 2 == 0)
+

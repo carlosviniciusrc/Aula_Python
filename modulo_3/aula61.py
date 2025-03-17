@@ -18,6 +18,7 @@ print('Maria', 'Helena', 'Eduarda') # Maria Helena Eduarda
 
 for nome in lista:
     print(nome, end= ' ') # Maria Helena Eduarda
+    
 
 print('\n')
 # Por padrão, print() separa os elementos 

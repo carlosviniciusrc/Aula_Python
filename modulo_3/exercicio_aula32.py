@@ -61,7 +61,6 @@ menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva
 """
 
 nome = input('Digite seu primeiro nome:')
-
 num_nome = len(nome)
 
 if num_nome <= 4:

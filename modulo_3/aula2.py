@@ -4,6 +4,7 @@
 print(123)
 
 
+
 # Caso queira usar mais de um argumento você utiliza a vírgula.
 print(12, 34)
 print(56, 78)

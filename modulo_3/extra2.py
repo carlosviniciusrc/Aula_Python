@@ -100,5 +100,3 @@ Imprime apenas os números que passaram na condição.
 # frase_modificada = '**FAZUELI**'.join(frase_listada)
 # print(frase_modificada)
 
-for i in range(10, 1, -1):
-    print(i)

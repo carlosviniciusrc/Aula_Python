@@ -17,6 +17,7 @@ Criar, ler, alterar, apagar = lista[i] (CRUD)
 lista_a = [1, 2, 3]
 lista_b = [4, 5, 6]
 
+
 # Concatenção de listas com '+':
 
 # A concatenação de listas no Python é feita usando o operador +,

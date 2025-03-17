@@ -6,6 +6,7 @@ Strings são texos que estão dentro de aspas
 """
 
 
+
 # Divisão da String:
 
 # Aspas Simples

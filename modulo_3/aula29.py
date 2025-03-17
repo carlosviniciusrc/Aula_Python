@@ -24,3 +24,4 @@ except: # Aqui estabelecemos o que vai aprecer no erro do usuário. para não ap
     print('Isso não é um número')
 
 
+

@@ -25,6 +25,8 @@ ideais para cálculos financeiros ou científicos onde a precisão é essencial.
 '''
 import decimal
 
+
+
 numero_4 = decimal.Decimal(0.7)
 numero_5 = decimal.Decimal(0.1)
 numero_6 = numero_4 + numero_5

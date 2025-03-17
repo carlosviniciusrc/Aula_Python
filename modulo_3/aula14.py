@@ -12,3 +12,4 @@ formato = string.format(a, b, letra3 =c) # Inserindo um parametro nomeado
 # Caso contrario o argumento'a' tivesse nomeado, você teria que atribuir o parametro nomeado para o restante dos argumentos
 # Ex: formato = string.format(letra1 =a, b, c) -> formato = string.format(letra1 =a, letra2=b, letra3 =c)
 print(formato)
+

@@ -17,5 +17,6 @@ print(float('1') + 1) # conversao para float.
 print(bool('')) # String sem espaço o valor é false
 print(bool(' ')) # String com espaço o valor é true
 
+
 # Str
 print(str(11) + 'b') # conversao para string.

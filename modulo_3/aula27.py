@@ -26,3 +26,5 @@ print(variavel[0:9:2]) #passo
 print(variavel[-9:-6:-1])
 print(variavel[::-1]) #invertendo caracteres
 
+
+

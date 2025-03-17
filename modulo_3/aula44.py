@@ -29,6 +29,7 @@ for numero in numeros:
 frutas = ["maçã", "banana", "uva"]
 for fruta in frutas:
     print(fruta)
+    
 
 
 

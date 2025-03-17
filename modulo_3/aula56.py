@@ -36,6 +36,7 @@ while True:
     elif opcao == 'l':
         for numero, item in enumerate(minha_lista):
             print(numero, item)
+            
 
 
 

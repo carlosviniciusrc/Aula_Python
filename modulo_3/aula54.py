@@ -24,6 +24,8 @@ dados = ("João", 25, True)
 # Tupla vazia
 vazia = ()
 
+
+
 '''
  - Tupla com um único elemento (precisa da vírgula no final)
 Importante: Se não colocar a vírgula em uma tupla de um único elemento,

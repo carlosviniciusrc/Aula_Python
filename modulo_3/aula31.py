@@ -24,6 +24,7 @@ else:
     print('Passou no if')
 
 
+
 # Is true
 
 # x = ["apple", "banana", "cherry"]

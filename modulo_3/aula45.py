@@ -29,3 +29,4 @@ while True:
         print(next(iterador))
     except StopIteration:
         break
+    
