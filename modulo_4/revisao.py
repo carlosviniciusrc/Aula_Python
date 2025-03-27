@@ -117,3 +117,35 @@ O primeiro dígito do CPF é 7
 # eh_par(2)
 
 # Crie uma função chamada contagem_regressiva(n), que imprime os números de n até 0 usando recursão.
+
+# Dia 20/03
+
+#fixação de 'return'
+
+# def saudacao():
+#     return "Olá, seja bem-vindo"
+
+# mensagem = saudacao()
+# print(mensagem)
+
+# Crie uma função chamada media(nota1, nota2, nota3), 
+# que calcula e retorna a média aritmética de três notas.
+
+# def media(nota1, nota2, nota3):
+#     media_calculada = float((nota1 + nota2 + nota3) / 3)
+#     return media_calculada 
+
+
+# media_augusto = media(7,5,9)
+
+# print(media_augusto)
+
+# media_vini = media(10, 9, 5)
+
+# print(media_vini)
+
+numeros = 1, 2, 3, 4, 5, 6
+print(sum(numeros))
+
+
+
