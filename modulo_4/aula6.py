@@ -22,7 +22,7 @@ permitindo que a função lide com um número desconhecido de entradas.
 #     return x + y
 
 # def soma(*args):
-#     total = 0
+#     total = 0 # acumulador
 #     for numero in args:
 #         total += numero
 #     return total

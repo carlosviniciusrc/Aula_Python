@@ -144,8 +144,47 @@ O primeiro dígito do CPF é 7
 
 # print(media_vini)
 
-numeros = 1, 2, 3, 4, 5, 6
-print(sum(numeros))
+# numeros = 1, 2, 3, 4, 5, 6
+# print(sum(numeros))]
 
+# Dia 01/04 - pratica sobre funçoes de primeria classe
 
+# def saudacao():
+#     return 'Olá mundo'
 
+# ola = saudacao
+
+# print(ola())
+
+# def operador(x, y, funcao):
+#     return funcao(x, y)
+
+# def soma(a, b):
+#     return a + b
+
+# def multiplica(a, b):
+#     return a * b
+
+# somador = operador(1, 2, soma)
+
+# print(somador)
+
+# Dia 02/04 - revisão sobre Higher Order Functions
+
+def menu(func, x, y):
+    return func(x,y)
+
+def soma(a, b):
+    return a + b
+
+def sub(a, b):
+    return a - b
+
+def divi(a, b):
+    return a // b
+
+def multi(a,b):
+    return a * b
+
+operacao = menu(multi, 2, 1)
+print(operacao)
