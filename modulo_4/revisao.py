@@ -171,20 +171,42 @@ O primeiro dígito do CPF é 7
 
 # Dia 02/04 - revisão sobre Higher Order Functions
 
-def menu(func, x, y):
-    return func(x,y)
+# def menu(func, x, y):
+#     return func(x,y)
 
-def soma(a, b):
-    return a + b
+# def soma(a, b):
+#     return a + b
 
-def sub(a, b):
-    return a - b
+# def sub(a, b):
+#     return a - b
 
-def divi(a, b):
-    return a // b
+# def divi(a, b):
+#     return a // b
 
-def multi(a,b):
-    return a * b
+# def multi(a,b):
+#     return a * b
 
-operacao = menu(multi, 2, 1)
-print(operacao)
+# operacao = menu(multi, 2, 1)
+# print(operacao)
+
+# Dia 04/04 - revisão sobre closure 
+
+def saudacao(frase):
+    def pessoa(nome):
+        return f'{frase}, {nome}'
+    return pessoa
+
+apresentacao = saudacao('Seja Bem-vindo')
+print(apresentacao('Vinicius'))
+
+
+def operador(multiplicador):
+    def operacao(numero):
+        return numero * multiplicador
+    return operacao
+
+duplicador = operador(2)
+triplicador = operador(3)
+quadruplicador = operador(4)
+
+print(duplicador(20))
