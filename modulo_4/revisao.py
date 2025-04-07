@@ -191,22 +191,73 @@ O primeiro dígito do CPF é 7
 
 # Dia 04/04 - revisão sobre closure 
 
-def saudacao(frase):
-    def pessoa(nome):
-        return f'{frase}, {nome}'
-    return pessoa
+# def saudacao(frase):
+#     def pessoa(nome):
+#         return f'{frase}, {nome}'
+#     return pessoa
 
-apresentacao = saudacao('Seja Bem-vindo')
-print(apresentacao('Vinicius'))
+# apresentacao = saudacao('Seja Bem-vindo')
+# print(apresentacao('Vinicius'))
 
 
-def operador(multiplicador):
+# def operador(multiplicador):
+#     def operacao(numero):
+#         return numero * multiplicador
+#     return operacao
+
+# duplicador = operador(2)
+# triplicador = operador(3)
+# quadruplicador = operador(4)
+
+# print(duplicador(20))
+
+# Dia 07/04 - revisão
+
+# Closeure e Higher Order Functions
+
+def saudacao(nome):
+    return f'Seja Bem-Vindo, {nome}'
+
+pessoa = saudacao('Vinicius')
+print(pessoa)
+
+
+def operacao(func, x, y):
+    return func(x,y)
+
+def soma(a,b):
+    return a + b
+
+def sub(x,y):
+    return x - y
+
+calculo = operacao(soma, 5, 5)
+print(calculo)
+
+def multiplicador(multiplo):
     def operacao(numero):
-        return numero * multiplicador
+        return numero * multiplo
     return operacao
 
-duplicador = operador(2)
-triplicador = operador(3)
-quadruplicador = operador(4)
+duplicador = multiplicador(2)
+triplicador = multiplicador(3)
+quadruplicador = multiplicador(4)
 
-print(duplicador(20))
+print(duplicador(6))
+print(triplicador(2))
+
+# Dicionarios 
+
+usuario ={
+    'nome': 'Vinicius',
+    'cargo': 'Analista',
+    'idade': 23,
+    'cidade': 'Fortaleza',
+    'estado': 'Ceará'
+}
+
+usuario['sobrenome'] = 'Rodrigues'
+usuario['nome'] = 'Carlos Vinicius'
+
+print(usuario['nome'])
+
