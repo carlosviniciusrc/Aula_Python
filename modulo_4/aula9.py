@@ -8,7 +8,7 @@ escopo ter sido finalizado.
 
 Isso é possível porque funções em Python são objetos de primeira classe, 
 o que significa que podem ser retornadas como valores e ainda manter acesso
- às variáveis do escopo em que foram criadas.
+às variáveis do escopo em que foram criadas.
 
 🔹 Quando usar closures?
 ✅ Para criar funções especializadas sem precisar repetir código.

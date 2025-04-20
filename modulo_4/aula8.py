@@ -37,15 +37,6 @@ print(aplicar_operacao(5, 3, soma))  # Saída: 8
 print(aplicar_operacao(5, 3, multiplicacao))  # Saída: 15
 
 
-# Retornar funções de outras funções 
-
-def saudacao_personalizada(saudacao):
-    def mensagem(nome):
-        return f"{saudacao}, {nome}!"
-    return mensagem
-
-ola = saudacao_personalizada("Olá")
-print(ola("Maria"))  # Saída: Olá, Maria!
 
 
 

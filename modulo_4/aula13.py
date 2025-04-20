@@ -32,3 +32,15 @@ print(pessoa.items())
 # quanto para definir um valor padrão se a chave não existir.
 print(pessoa.setdefault('cidade', 'Fortaleza'))
 
+# Os métodos .get() e .setdefault() dos dicionários em Python são parecidos,
+# mas têm uma diferença essencial:
+
+# .get(): somente leitura
+
+# Usado para acessar o valor de uma chave de forma segura.
+# Não modifica o dicionário.
+
+# .setdefault(): leitura + criação se necessário
+
+#Acessa o valor se a chave existir.
+#Cria a chave com um valor padrão se ela não existir.

@@ -215,49 +215,110 @@ O primeiro dígito do CPF é 7
 
 # Closeure e Higher Order Functions
 
-def saudacao(nome):
-    return f'Seja Bem-Vindo, {nome}'
+# def saudacao(nome):
+#     return f'Seja Bem-Vindo, {nome}'
 
-pessoa = saudacao('Vinicius')
-print(pessoa)
+# pessoa = saudacao('Vinicius')
+# print(pessoa)
 
 
-def operacao(func, x, y):
-    return func(x,y)
+# def operacao(func, x, y):
+#     return func(x,y)
 
-def soma(a,b):
-    return a + b
+# def soma(a,b):
+#     return a + b
 
-def sub(x,y):
-    return x - y
+# def sub(x,y):
+#     return x - y
 
-calculo = operacao(soma, 5, 5)
-print(calculo)
+# calculo = operacao(soma, 5, 5)
+# print(calculo)
 
-def multiplicador(multiplo):
-    def operacao(numero):
-        return numero * multiplo
-    return operacao
+# def multiplicador(multiplo):
+#     def operacao(numero):
+#         return numero * multiplo
+#     return operacao
 
-duplicador = multiplicador(2)
-triplicador = multiplicador(3)
-quadruplicador = multiplicador(4)
+# duplicador = multiplicador(2)
+# triplicador = multiplicador(3)
+# quadruplicador = multiplicador(4)
 
-print(duplicador(6))
-print(triplicador(2))
+# print(duplicador(6))
+# print(triplicador(2))
 
 # Dicionarios 
 
-usuario ={
-    'nome': 'Vinicius',
-    'cargo': 'Analista',
-    'idade': 23,
-    'cidade': 'Fortaleza',
-    'estado': 'Ceará'
+# usuario ={
+#     'nome': 'Vinicius',
+#     'cargo': 'Analista',
+#     'idade': 23,
+#     'cidade': 'Fortaleza',
+#     'estado': 'Ceará'
+# }
+
+# usuario['sobrenome'] = 'Rodrigues'
+# usuario['nome'] = 'Carlos Vinicius'
+
+# print(usuario['nome'])
+
+# Revisão dia 15/04
+
+# Closure e Higher Order Functions
+
+# def saudacao(nome):
+#     return f'Olá, {nome}'
+
+# def operador(func,x,y):
+#     return func(x,y)
+
+# def soma(a,b):
+#     return a + b
+
+# def subtra(a,b):
+#     return a - b
+
+# saudar = saudacao('Vinicius')
+# operacao = operador(soma, 1, 2)
+# sub = operador(subtra, 100, 10)
+
+# print(saudar)
+# print(operacao)
+# print(sub)
+
+
+# def maquina(multiplicador):
+#     def resultado(numero):
+#         return numero * multiplicador
+#     return resultado
+
+# duplicador = maquina(2)
+# triplicador = maquina(3)
+
+# print(duplicador(5))
+# print(triplicador(2))
+
+
+# Revisão 17/04
+
+# dicionarios
+
+mulher = dict(nome='Emilly', idade= 23, cidade= 'Fortaleza')
+mulher['nome'] = 'Emillybtt'
+
+
+usuario = {
+    'nome': 'Carlos',
+    'idade': 68,
+    'cidade': 'Fortaleza'
 }
 
-usuario['sobrenome'] = 'Rodrigues'
-usuario['nome'] = 'Carlos Vinicius'
+# keys, items, values
+# print(tuple(usuario.keys()))
+# print(tuple(usuario.values()))
+# print(tuple(usuario.items()))
 
-print(usuario['nome'])
+# setdefault
+print(usuario.setdefault('estado','Ceará'))
+print(usuario.setdefault('estado','Ceará'))
 
+print(usuario)
