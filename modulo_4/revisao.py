@@ -302,15 +302,15 @@ O primeiro dígito do CPF é 7
 
 # dicionarios
 
-mulher = dict(nome='Emilly', idade= 23, cidade= 'Fortaleza')
-mulher['nome'] = 'Emillybtt'
+# mulher = dict(nome='Emilly', idade= 23, cidade= 'Fortaleza')
+# mulher['nome'] = 'Emillybtt'
 
 
-usuario = {
-    'nome': 'Carlos',
-    'idade': 68,
-    'cidade': 'Fortaleza'
-}
+# usuario = {
+#     'nome': 'Carlos',
+#     'idade': 68,
+#     'cidade': 'Fortaleza'
+# }
 
 # keys, items, values
 # print(tuple(usuario.keys()))
@@ -318,7 +318,49 @@ usuario = {
 # print(tuple(usuario.items()))
 
 # setdefault
-print(usuario.setdefault('estado','Ceará'))
-print(usuario.setdefault('estado','Ceará'))
+# print(usuario.setdefault('estado','Ceará'))
+# print(usuario.setdefault('estado','Ceará'))
 
-print(usuario)
+# print(usuario)
+ 
+# Revisão 22/04
+
+# dicionarios
+
+# usuario = {
+#     'nome': 'Carlos',
+#     'idade': 68,
+#     'cidade': 'Fortaleza'
+# }
+
+# print(len(usuario)) # vai exibir o numero de chaves no dict
+# print(usuario.keys()) # Vai exibir as chaves
+# print(usuario.values()) # Vai exibir os valores da chaves 
+# print(usuario.items()) # Vai exibir o dicionario completo
+
+# v1 = usuario.get('casa', 52) # metodo usado apenas como none para evitar erro no codigo, mas não acrescenta valore no dicionario
+# print(v1)
+
+# v2 = usuario.setdefault('estado', 'Ceará') # Diferente do get, ele vai exbir um novo valor e adicionar ao dict
+
+# print(v2)
+# print(usuario)
+
+# v3 = usuario.pop('estado') # Vai apagar uma chave dict especifica
+# # v4 = usuario.popitem() # Vai deletar o ultimo item do dicionario
+# print(usuario)
+
+# Update
+
+# Vai inserir novos dados a chave, caso a chave já exista vai substituir um valor
+
+# lista_nova = {'sobrenome': 'Cardoso', 'bairro': 'Maraponga'}
+# usuario.update(lista_nova)
+# print(usuario)
+
+# Teste 23/04
+
+nomes =['carlos', 'pedro', 'joão']
+
+for i, nome in enumerate(nomes):
+    print(i, nome)
