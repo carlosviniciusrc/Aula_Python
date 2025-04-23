@@ -50,6 +50,6 @@ for pergunta in perguntas:
             print('Errou 😕')
     print(end='\n')
 
-
-print(f'Você acertou {qtd_acertos} perguntas 🎉')
 os.system('cls')
+print(f'Você acertou {qtd_acertos} respostas de {len(perguntas)} perguntas 🎉')
+
