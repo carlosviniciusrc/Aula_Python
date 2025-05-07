@@ -358,9 +358,3 @@ O primeiro dígito do CPF é 7
 # usuario.update(lista_nova)
 # print(usuario)
 
-# Teste 23/04
-
-nomes =['carlos', 'pedro', 'joão']
-
-for i, nome in enumerate(nomes):
-    print(i, nome)
