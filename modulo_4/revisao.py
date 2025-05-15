@@ -358,3 +358,71 @@ O primeiro dígito do CPF é 7
 # usuario.update(lista_nova)
 # print(usuario)
 
+# Revisão sobre set()
+
+# lista = ['Vinicius', 1, 2 ,3 ,4]
+
+# conjunto = set(lista)
+
+# conjunto.add('Oi')
+# conjunto.clear()
+
+# print(conjunto)
+
+# Revisão dia 14/05
+
+# lista_de_listas_de_inteiros = [
+#     [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+#     [9, 1, 8, 9, 9, 7, 2, 1, 6, 8],
+#     [1, 3, 2, 2, 8, 6, 5, 9, 6, 7],
+#     [3, 8, 2, 8, 6, 7, 7, 3, 1, 9],
+#     [4, 8, 8, 8, 5, 1, 10, 3, 1, 7],
+#     [1, 3, 7, 2, 2, 1, 5, 1, 9, 9],
+#     [10, 2, 2, 1, 3, 5, 10, 5, 10, 1],
+#     [1, 6, 1, 5, 1, 1, 1, 4, 7, 3],
+#     [1, 3, 7, 1, 10, 5, 9, 2, 5, 7],
+#     [4, 7, 6, 5, 2, 9, 2, 1, 2, 1],
+#     [5, 3, 1, 8, 5, 7, 1, 8, 8, 7],
+#     [10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
+# ]
+
+# def verificador(lista_de_interios):
+#     numeros_checados = set()
+#     numero_duplicado = -1
+
+#     for numero in lista_de_interios:
+#         if numero in numeros_checados:
+#             numero_duplicado = numero
+#             break
+
+#         numeros_checados.add(numero)
+
+#     return numero_duplicado
+
+
+# for lista in lista_de_listas_de_inteiros:
+#     print(verificador(lista))
+
+# Revisão Operadores de set - dia 15/05
+
+conjunto1 = {1, 2, 3}
+conjunto2 = {2, 3, 4}
+
+# união
+conjunto3 = conjunto1 | conjunto2
+print(conjunto3)
+
+# Interseção
+conjunto4 = conjunto1 & conjunto2
+print(conjunto4)
+
+# diferença
+conjunto5 = conjunto1 - conjunto2
+conjunto6 = conjunto2 - conjunto1
+print(conjunto5)
+print(conjunto6)
+
+# Diferença simetrica
+conjunto7 = conjunto1 ^ conjunto2
+print(conjunto7)
+
