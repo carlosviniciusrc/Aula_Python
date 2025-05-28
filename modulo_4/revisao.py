@@ -405,24 +405,82 @@ O primeiro dígito do CPF é 7
 
 # Revisão Operadores de set - dia 15/05
 
-conjunto1 = {1, 2, 3}
-conjunto2 = {2, 3, 4}
+# conjunto1 = {1, 2, 3}
+# conjunto2 = {2, 3, 4}
 
-# união
-conjunto3 = conjunto1 | conjunto2
-print(conjunto3)
+# # união
+# conjunto3 = conjunto1 | conjunto2
+# print(conjunto3)
 
-# Interseção
-conjunto4 = conjunto1 & conjunto2
-print(conjunto4)
+# # Interseção
+# conjunto4 = conjunto1 & conjunto2
+# print(conjunto4)
 
-# diferença
-conjunto5 = conjunto1 - conjunto2
-conjunto6 = conjunto2 - conjunto1
-print(conjunto5)
-print(conjunto6)
+# # diferença
+# conjunto5 = conjunto1 - conjunto2
+# conjunto6 = conjunto2 - conjunto1
+# print(conjunto5)
+# print(conjunto6)
 
-# Diferença simetrica
-conjunto7 = conjunto1 ^ conjunto2
-print(conjunto7)
+# # Diferença simetrica
+# conjunto7 = conjunto1 ^ conjunto2
+# print(conjunto7)
 
+# Revisão Dia 27/05
+
+# sort, sorted e lambda
+
+lista = [
+    {'nome': 'Luiz', 'sobrenome': 'Miranda'},
+    {'nome': 'Maria', 'sobrenome': 'Oliveira'},
+    {'nome': 'Daniel', 'sobrenome': 'Silva'},
+    {'nome': 'Eduardo', 'sobrenome': 'Moreira'},
+    {'nome': 'Aline', 'sobrenome': 'Souza'},
+]
+
+# utilizando sort e função
+
+# def ordena(item):
+#     return item['nome']
+
+
+# lista.sort(key=ordena)
+
+# for item in lista:
+#     print(item)
+
+# utilizando sort e lambda
+# lista.sort(key=lambda item: item['nome'])
+
+# Utilizando lambda e sorted
+# def exibidor(lista):
+#     for item in lista:
+#         print(item)
+
+
+
+# l1= sorted(lista, key= lambda item: item['nome'])
+
+# exibidor(l1)
+
+# Como funciona a lambda
+
+def executa(func, *args):
+    return func(*args)
+
+def soma(x,y):
+    return x + y
+
+soma_lambda = executa(lambda x,y: x + y, 2, 3)
+print(soma_lambda)
+
+def multiplicador(multiplo):
+    def multiplica(numero):
+        return numero * multiplo
+    return multiplica
+
+triplica = multiplicador(3)
+
+triplica_lambda = executa(lambda m: lambda n: n * m, 3)
+
+print(triplica_lambda(2))
